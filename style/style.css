@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;700;800&family=Poppins:wght@100;200;300;400;500;600;700;900&family=Uchen&family=Varela+Round&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bbf0f3;
+    background-image: linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
+    ;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-cont {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.heads {
+    color: #167277;
+}
+
+.quiz-head h5 {
+    padding: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+button {
+    background-color: #167277;
+    border: none;
+    color: #bbf0f3;
+    display: block;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0 0 20px 20px;
+}
+
+button:hover {
+    background-color: #0f5155;
+}
